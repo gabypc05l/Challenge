@@ -1,0 +1,224 @@
+	:root{
+		--preto-claro: #464646;
+		--azul1: #2A7AE4;
+		--branco: #FFFFFF;
+		--azul-claro: #EAF2FD;
+		--cinza-background: #E5E5E5;
+		--cinza-letra:   #A2A2A2;
+	}
+
+	body {
+		background-color: var(--cinza-background);
+		margin: 0;
+		padding: 0;
+	}
+
+	#cabecalho{
+		position: relative;
+		background-color: var(--branco);
+		width: 100%; 
+		height: 100px;		
+	}
+
+	.icone{
+		position: relative;
+		top: 37%;
+    	left: 28%;
+	}
+	
+   	#icone1{
+   		position: absolute;
+   		left: 298px;
+    	top: 32px;
+   	}
+	
+	
+	.alura{
+		font-family: monospace;
+		font-weight: bold;
+		font-size: 20px;
+		display: inline-block;
+		color: var(--azul1);
+		position: relative;
+   		top: 25%;
+   		left: 30%;
+	}
+
+
+
+	.barra-de-pesquisa{
+		padding: 5px 10px;
+   		padding-right: 36px;
+		gap: 8px;
+		border-radius: 2em;
+		border-style: solid;
+		border-color: var(--cinza-background);
+		background-color: var(--cinza-background);
+		position: relative;
+		top: 33%;
+		left: 30%;
+		width: 250px;
+		height: 30px;
+	}
+
+	.login {
+		border: 2px solid var(--azul1);
+		color: var(--azul1);
+		background-color: transparent;
+		padding: 1em 3em;
+		text-decoration: none;
+		position: relative;
+    	left: 50%;
+    	top: 32px;
+	}
+
+	#lupa{
+		position: absolute;
+		margin-left: 326px;
+    	margin-top: 37px;
+	}
+
+	#imagem-banner {
+		width: 100%;
+		height: 352px;
+		
+	}
+
+	.botão1 {
+		background-color: var(--azul1);
+		padding: 18px;
+		color: var(--branco);
+		position: absolute;
+		top: 368px;
+		left: 123px;
+		text-decoration: none;
+	}
+
+	#conteiner-produtos {
+		margin-top: 3%;
+		margin: 1% 5%;
+		
+
+	}
+
+	#starwars{
+		display: inline-block;
+
+	}
+
+	
+
+	#titulo-starwars{
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		margin-bottom: 20px;
+	}
+
+	.descricao{
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 16px;
+		margin-top: 5px;
+		margin-bottom: 8px;
+	}
+
+	.preco{
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 19px;
+		margin-bottom: 8px;
+	
+	}
+
+	.ver-produto{
+		color: var(--azul1);
+		text-decoration: none;
+		margin-bottom: 20px;
+	}
+
+	#faleConosco{
+		background-color: var(--azul-claro);
+		margin-top: 60px;
+	}
+
+	.informações {
+		padding: 41px;
+		height: 331px;
+	}
+
+	.logo{
+		display: inline-block;
+		margin-left: 10%;
+		margin-right: 3%;
+	}
+
+	#agrupaLogo{
+		position: relative;	
+		bottom: 118px;
+	}
+	
+	.informaçõesLinks{
+		display: inline-block;
+		width: 50%;
+		height: 50%;
+		font-size: 20px;
+	}
+
+	.linkFooter{
+		position: relative;
+		display: block;
+		margin: 2% 0 2% 0;
+		text-decoration: none;
+		color: var(--preto-claro);
+	}
+
+	.inputs{
+		position: relative;
+		left: 735px;
+    	bottom: 190px;
+    	width: 198px;
+	}
+
+	#input1{
+		display: block;
+		width:372px;       
+		padding-bottom: 24px;
+		margin: 19px 0 18px 0;
+		border: none;
+	}
+
+	#input2{
+		display: block;
+		width:372px;       
+		height:90px;
+		border: none;
+		resize: none;
+		font-family: arial;
+	}
+
+	#botão{
+		margin-top: 18px;
+		padding: 15px 40px 15px 40px;
+		background-color: var(--azul1);
+		color: var(--branco);
+		border: none;
+		transition: background-color .3s easy;
+		cursor: pointer;
+	}
+
+	#botão:hover {
+		background-color: var(--preto-claro);
+	}
+
+	#footer{
+		background-color: var(--branco);
+		padding: 30px 300px;
+		text-align: center;
+	}
