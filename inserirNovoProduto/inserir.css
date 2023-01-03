@@ -1,0 +1,193 @@
+:root{
+		--preto-claro: #464646;
+		--azul1: #2A7AE4;
+		--branco: #FFFFFF;
+		--azul-claro: #EAF2FD;
+		--cinza-background: #E5E5E5;
+		--cinza-letra:   #A2A2A2;
+	}
+
+	body {
+		background-color: var(--cinza-background);
+		margin: 0;
+		padding: 0;
+	}
+
+	#cabecalho{
+		position: relative;
+		background-color: var(--branco);
+		width: 100%; 
+		height: 100px;		
+	}
+
+	.icone{
+		position: relative;
+		top: 37%;
+    	left: 8%;
+	}
+
+	.barra-de-pesquisa{
+		padding: 5px 10px;
+   		padding-right: 36px;
+		gap: 8px;
+		border-radius: 2em;
+		border-style: solid;
+		border-color: var(--cinza-background);
+		background-color: var(--cinza-background);
+		position: relative;
+		top: 38%;
+		left: 9%;
+		width: 375px;
+		height: 30px;
+	}
+
+	.menu-administrador{
+		border: 2px solid var(--azul1);
+		color: var(--azul1);
+		background-color: transparent;
+		padding: 1em 1em;
+		text-decoration: none;
+		position: relative;
+    	left: 33%;
+    	top: 32px;
+	}
+
+	#lupa{
+		position: absolute;
+		margin-left: 73px;
+    	margin-top: 41px;
+	}
+
+	form{
+		width: 30%;
+    	margin-left: auto;
+   		margin-right: auto;
+   		margin-top: 2%;
+	}
+
+	#adicionar-produto-titulo{
+		width: 65%;
+    	margin-left: auto;
+    	margin-top: 4%;
+		font-weight: 620;
+		font-size: 27px;
+		line-height: 21px;
+	}
+
+	.cadastra-produto{
+		display: block;
+	}
+
+	#descricao-produto{
+		width: 423px;
+    	height: 122px;
+    	border:inset 4px var(--branco);
+		resize: none;
+	}
+
+	#input{
+		width: 423px;
+    	height: 63px;
+    	margin-bottom: 20px;
+    	border-color: var(--branco);
+   	}
+
+	#adicionar-produto{
+		width: 423px;
+    	height: 63px;
+		margin-top: 18px;
+		padding: 15px 40px 15px 40px;
+		background-color: var(--azul1);
+		color: var(--branco);
+		border: none;
+		transition: background-color .3s easy;
+		cursor: pointer;
+	}
+
+	#faleConosco{
+		background-color: var(--azul-claro);
+		margin-top: 60px;
+	}
+
+	#form2{
+		width: 119%;
+	}
+
+	.informações {
+		padding: 41px;
+		height: 331px;
+	}
+
+	.logo{
+		display: inline-block;
+		margin-left: 10%;
+		margin-right: 3%;
+	}
+
+	#agrupaLogo{
+		position: relative;	
+		bottom: 118px;
+	}
+	
+	.informaçõesLinks{
+		display: inline-block;
+		width: 50%;
+		height: 50%;
+		font-size: 20px;
+	}
+
+	.linkFooter{
+		position: relative;
+		display: block;
+		margin: 2% 0 2% 0;
+		text-decoration: none;
+		color: var(--preto-claro);
+	}
+
+	.inputs{
+		    position: relative;
+		    left: 692px;
+		    bottom: 275px;
+		    width: 198px;
+	}
+
+	.faleConosco{
+		font-size: 20px;
+	}
+
+	#input1{
+		display: block;
+		width:372px;       
+		padding-bottom: 24px;
+		margin: 19px 0 18px 0;
+		border:inset 4px var(--branco);
+	}
+
+	#input2{
+		display: block;
+		width:372px;       
+		height:90px;
+		border:inset 4px var(--branco);
+		resize: none;
+		font-family: arial;
+	}
+
+	#botão{
+		margin-top: 18px;
+		padding: 15px 22px 15px 23px;
+		background-color: var(--azul1);
+		color: var(--branco);
+		border: none;
+		transition: background-color .3s easy;
+		cursor: pointer;
+	}
+
+	#botão:hover {
+		background-color: var(--preto-claro);
+	}
+
+	#footer{
+		background-color: var(--branco);
+		padding: 30px 300px;
+		text-align: center;
+	}
